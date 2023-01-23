@@ -118,7 +118,27 @@ input {
  accent-color: #af0008;
 }
 
+img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Download {
+  margin-bottom: 10px;
+}
 
 
 @media (max-width: 1000px) {

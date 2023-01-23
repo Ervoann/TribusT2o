@@ -1,115 +1,67 @@
 const quizData = [
     {
-        question: "Parmi ces chaînes youtube, laquelle seriez-vous le plus susceptible de regarder ?",
-        a: "Squeezie",
-        b: "Angèle",
-        c: "Enjoy Phoenix",
-        d: "Riding Zone",
-        correct: "d",
+        question: "Exemple de question n°1 a creer (choisir par soiree pour tester)",
+        a: "Aloa 🍃",
+        b: "2088 🌒",
+        c: "Karkan-Fui ⚙️",
+        d: "Meta 💾",
+        e: "Ummo 💧",
     },
     {
-        question: "Parmi ces vidéos sorties récemment, laquelle seriez-vous susceptible de regarder ?",
-        a: "ON JOUE UN TOURNOI FIFA SPÉCIAL COUPE DU MONDE (ft. plein de monde) - Gotaga ",
-        b: "Sunset Lover - Petit Biscuit (Clip Official)",
-        c: "JE TESTE SKKN, LA MARQUE DE KIM KARDASHIAN ! - Gaelle Garcia Diaz",
-        d: "Abdos 10minutes pour bruler votre gras 🔥 (intense) - Tibo InShape",
-        correct: "b",
+        question: "Exemple de question n°2 a creer (choisir par soiree pour tester)",
+        a: "Aloa 🍃",
+        b: "2088 🌒",
+        c: "Karkan-Fui ⚙️",
+        d: "Meta 💾",
+        e: "Ummo 💧",
     },
     {
-        question: "Quel sport pratiquerais tu ?",
-        a: "E-sport ",
-        b: "Danse Hip-Hop",
-        c: "Cosplay",
-        d: "Basket",
-        correct: "a",
+        question: "Exemple de question n°3 a creer (choisir par soiree pour tester)",
+        a: "Aloa 🍃",
+        b: "2088 🌒",
+        c: "Karkan-Fui ⚙️",
+        d: "Meta 💾",
+        e: "Ummo 💧",
     },
     {
-        question: "Quel événement suivrais tu ?",
-        a: "Zevent",
-        b: "Grammy Award",
-        c: "Salon du tatouage",
-        d: "GP Explorer",
-        correct: "b",
+        question: "Exemple de question n°4 a creer (choisir par soiree pour tester)",
+        a: "Aloa 🍃",
+        b: "2088 🌒",
+        c: "Karkan-Fui ⚙️",
+        d: "Meta 💾",
+        e: "Ummo 💧",
     },
     {
-        question: "Quel personne serais tu susceptible de suivre sur instagram ?",
-        a: "Doigby",
-        b: "Laylow",
-        c: "Andy",
-        d: "Cycliste dynamique",
-        correct: "b",
+        question: "Exemple de question n°5 a creer (choisir par soiree pour tester)",
+        a: "Aloa 🍃",
+        b: "2088 🌒",
+        c: "Karkan-Fui ⚙️",
+        d: "Meta 💾",
+        e: "Ummo 💧",
     },
     {
-        question: "Quels vlog regarderais tu ?",
-        a: "Inoxtag ",
-        b: "Bigflo et Oli",
-        c: "Léna Situation",
-        d: "Kalipso en vrai",
-        correct: "b",
+        question: "Exemple de question n°6 a creer (choisir par soiree pour tester)",
+        a: "Aloa 🍃",
+        b: "2088 🌒",
+        c: "Karkan-Fui ⚙️",
+        d: "Meta 💾",
+        e: "Ummo 💧",
     },
     {
-        question: "Quel application serais tu susceptible de télécharger ?",
-        a: "Twitch",
-        b: "Spotify",
-        c: "Instagram",
-        d: "Winamax",
-        correct: "b",
+        question: "Exemple de question n°7 a creer (choisir par soiree pour tester)",
+        a: "Aloa 🍃",
+        b: "2088 🌒",
+        c: "Karkan-Fui ⚙️",
+        d: "Meta 💾",
+        e: "Ummo 💧",
     },
     {
-        question: "Quel format de vidéo préfères tu ?",
-        a: "Live",
-        b: "Clip musicaux",
-        c: "Story",
-        d: "Format 9:16",
-        correct: "b",
-    },
-    {
-        question: "Parmi ces 4, lequel écouterais tu ? ",
-        a: "Mastu",
-        b: "Le Motif",
-        c: "Bilal Hassani",
-        d: "Tibo Inshape",
-        correct: "b",
-    },
-    {
-        question: "Qu’est-ce qui t’intéresse le plus sur une vidéo ?",
-        a: "Montage",
-        b: "Audio",
-        c: "Storytelling",
-        d: "Vidéo",
-        correct: "b",
-    },
-    {
-        question: "Qu’est-ce qui t’intéresse le plus sur une vidéo ?",
-        a: "Montage",
-        b: "Audio",
-        c: "Storytelling",
-        d: "Vidéo",
-        correct: "b",
-    },
-    {
-        question: "Parmi ces films/séries , laquelle regarderais tu ?",
-        a: "Ready Player One",
-        b: "8 mile",
-        c: "Drag Race",
-        d: "Everest",
-        correct: "b",
-    },
-    {
-        question: "Quel live regarderais tu ?",
-        a: "Gotaga",
-        b: "Les chroniques sales",
-        c: "Fabian Crfx",
-        d: "Rmc Sport",
-        correct: "b",
-    },
-    {
-        question: "A quel jeux-vidéo jouerais tu",
-        a: "Lol",
-        b: "Osu",
-        c: "Animal Crossing",
-        d: "FIFA",
-        correct: "b",
+        question: "Exemple de question n°8 a creer (choisir par soiree pour tester)",
+        a: "Aloa 🍃",
+        b: "2088 🌒",
+        c: "Karkan-Fui ⚙️",
+        d: "Meta 💾",
+        e: "Ummo 💧",
     },
 ];
 
@@ -120,6 +72,7 @@ const a_text = document.getElementById('a_text')
 const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
 const d_text = document.getElementById('d_text')
+const e_text = document.getElementById('e_text')
 const submitBtn = document.getElementById('submit')
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
@@ -169,6 +122,7 @@ function loadQuiz() {
     b_text.innerText = currentQuizData.b
     c_text.innerText = currentQuizData.c
     d_text.innerText = currentQuizData.d
+    e_text.innerText = currentQuizData.e
 }
 
 function deselectAnswers() {
@@ -191,7 +145,9 @@ let a = 0;
 let b = 0;
 let c = 0;
 let d = 0;
-let Position = ["Jeux Vidéos", "Musique", "Beauté", "Sport"]
+let e = 0;
+let Position = ["Aloa", "2088", "Karkan-Fui", "Meta", "Ummo"];
+let Tribus = ["./src/Img/Résultats/Aloa.png", "./src/Img/Résultats/2088.jpg", "./src/Img/Résultats/Karkan.png", "./src/Img/Résultats/Meta.png", "./src/Img/Résultats/Ummo.png"];
 
 
 submitBtn.addEventListener('click', () => {
@@ -211,22 +167,25 @@ submitBtn.addEventListener('click', () => {
         else if ( answer[i] === "c") {
             c = c + 1;
         }
-        else {
+        else if ( answer[i] === "d") {
             d = d + 1;
+        }
+        else {
+            e = e + 1;
         }
 
         const count  = TablMax.push(a);
         const count2 = TablMax.push(b);
         const count3 = TablMax.push(c);
         const count4 = TablMax.push(d);
-
+        const count5 = TablMax.push(e);
 
         let LaValMax = Math.max(...TablMax);
         const position = TablMax.indexOf(LaValMax);
         console.log(position);
 
         result = Position[position];
-
+        Tribu = Tribus[position];
 
         
       }
@@ -242,9 +201,13 @@ submitBtn.addEventListener('click', () => {
            loadQuiz()
        } else {
            quiz.innerHTML = `
-           <h2 class="Result">D'après vos réponses vous êtes plus susceptible d'appartenir à la communauté :<span style="font-weight:600;"> ${result} </span></h2>
-           <h2 class="Result">N'hésitez pas à regarder la planche en face de vous pour vous positionner ! 😉</h2>
-           <button onclick="location.reload()">Reload</button>
+           <div class="Container">
+           <h2 class="Result">D'après tes réponses, tu appartiens à la tribu :<span style="font-weight:600;"> ${result} </span></h2>
+           <h2 class="Result">N'hésite pas à partager en story insta ta tribu en nous identifiant pour <span style="font-weight:600;">gagner ta place</span> ! 😉</h2>
+           <img src="${Tribu}"/>
+           <a href="${Tribu}" download><button class="Download">Telecharge ton resultat</button></a>
+           <button onclick="location.reload()" class="quit">Relancer le quiz</button>
+           </div>
            `
        }
     }
