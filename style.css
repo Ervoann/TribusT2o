@@ -51,6 +51,7 @@ body{
 
 .info-list {
   margin-left : 50px;
+  margin-right : 50px;
   margin-top : 10px;
   margin-bottom : 50px;
 }
@@ -140,6 +141,10 @@ a {
   margin-bottom: 10px;
 }
 
+.question {
+  text-align: center;
+}
+
 
 @media (max-width: 1000px) {
   .quiz-container{
@@ -163,7 +168,7 @@ a {
   
   h2{
     color: #141414;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
     margin: 0;
     font-family: Akira;
