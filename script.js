@@ -24,7 +24,7 @@ const quizData = [
         e: "L'Arkanik",
     },
     {
-        question: "Quelle faculte choisirais tu ?",
+        question: "Quelle faculte choisirais-tu ?",
         a: "Provoquer la photosynthèse des plantes",
         b: "Posséder un corps luminescent",
         c: "Dévelloper des excroissances mécaniques",
@@ -32,7 +32,7 @@ const quizData = [
         e: "Stocker la mémoire de l'ancien monde",
     },
     {
-        question: "Avec combien de gens te vois tu composer ton groupe ?",
+        question: "Avec combien de gens te vois-tu composer ton groupe ?",
         a: "80k",
         b: "30k",
         c: "1 million",
@@ -40,7 +40,7 @@ const quizData = [
         e: "70k",
     },
     {
-        question: "Quelle ideologie suivrait tu",
+        question: "Quelle ideologie suivrais-tu ?",
         a: "Spiritualité",
         b: "Danse",
         c: "Conflit",
