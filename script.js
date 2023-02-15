@@ -24,7 +24,7 @@ const quizData = [
         e: "L'Arkanik",
     },
     {
-        question: "Quelle faculté choisirais tu ?",
+        question: "Quelle faculte choisirais tu ?",
         a: "Provoquer la photosynthèse des plantes",
         b: "Posséder un corps luminescent",
         c: "Dévelloper des excroissances mécaniques",
