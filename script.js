@@ -33,11 +33,11 @@ const quizData = [
     },
     {
         question: "Avec combien de gens te vois-tu composer ton groupe ?",
-        a: "80k",
-        b: "30k",
-        c: "1 million",
-        d: "90k",
-        e: "70k",
+        a: "80 000",
+        b: "30 000",
+        c: "1 000 000",
+        d: "90 000",
+        e: "70 000",
     },
     {
         question: "Quelle ideologie suivrais-tu ?",
@@ -48,20 +48,12 @@ const quizData = [
         e: "Mémoire",
     },
     {
-        question: "Exemple de question n°7 a creer (choisir par soiree pour tester)",
-        a: "Aloa 🍃",
-        b: "2088 🌒",
-        c: "Karkan-Fui ⚙️",
-        d: "Meta 💾",
-        e: "Ummo 💧",
-    },
-    {
-        question: "Exemple de question n°8 a creer (choisir par soiree pour tester)",
-        a: "Aloa 🍃",
-        b: "2088 🌒",
-        c: "Karkan-Fui ⚙️",
-        d: "Meta 💾",
-        e: "Ummo 💧",
+        question: "Quel style de musique écouterait ta tribu ?",
+        a: "Acid Techno",
+        b: "Rave",
+        c: "Acidcore",
+        d: "Indus",
+        e: "Trance",
     },
 ];
 
@@ -147,7 +139,7 @@ let c = 0;
 let d = 0;
 let e = 0;
 let Position = ["Aloa", "2088", "Karkan-Fui", "Meta", "Ummo"];
-let Tribus = ["./src/Img/Résultats/Aloa.png", "./src/Img/Résultats/2088.jpg", "./src/Img/Résultats/Karkan.png", "./src/Img/Résultats/Meta.png", "./src/Img/Résultats/Ummo.png"];
+let Tribus = ["./src/Img/Résultats2/Aloa.jpg", "./src/Img/Résultats2/2088.jpg", "./src/Img/Résultats2/Karkan.jpg", "./src/Img/Résultats2/Meta.jpg", "./src/Img/Résultats2/Ummo.jpg"];
 
 
 submitBtn.addEventListener('click', () => {

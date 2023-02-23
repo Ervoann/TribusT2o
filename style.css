@@ -121,7 +121,7 @@ input {
 
 img {
   width: 200px;
-  height: 200px;
+  height: 350px;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -192,5 +192,11 @@ a {
 }
 .quiz-header{
   padding: 2rem;
+}
+img {
+  width: 130px;
+  height: 220px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 }
