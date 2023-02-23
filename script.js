@@ -33,11 +33,11 @@ const quizData = [
     },
     {
         question: "Avec combien de gens te vois-tu composer ton groupe ?",
-        a: "80 000",
-        b: "30 000",
+        a: "20 000",
+        b: "5 000",
         c: "1 000 000",
-        d: "90 000",
-        e: "70 000",
+        d: "200",
+        e: "100 000",
     },
     {
         question: "Quelle ideologie suivrais-tu ?",
@@ -48,7 +48,7 @@ const quizData = [
         e: "Mémoire",
     },
     {
-        question: "Quel style de musique écouterait ta tribu ?",
+        question: "Quel style de musique ecouterait ta tribu ?",
         a: "Acid Techno",
         b: "Rave",
         c: "Acidcore",
@@ -138,8 +138,8 @@ let b = 0;
 let c = 0;
 let d = 0;
 let e = 0;
-let Position = ["Aloa", "2088", "Karkan-Fui", "Meta", "Ummo"];
-let Tribus = ["./src/Img/Résultats2/Aloa.jpg", "./src/Img/Résultats2/2088.jpg", "./src/Img/Résultats2/Karkan.jpg", "./src/Img/Résultats2/Meta.jpg", "./src/Img/Résultats2/Ummo.jpg"];
+let Position = ["Aloa", "2888", "Karkan-Fui", "Meta", "Ummo"];
+let Tribus = ["./src/Img/Résultats2/Aloa.jpg", "./src/Img/Résultats2/2888.jpg", "./src/Img/Résultats2/Karkan.jpg", "./src/Img/Résultats2/Meta.jpg", "./src/Img/Résultats2/Ummo.jpg"];
 
 
 submitBtn.addEventListener('click', () => {
@@ -195,7 +195,7 @@ submitBtn.addEventListener('click', () => {
            quiz.innerHTML = `
            <div class="Container">
            <h2 class="Result">D'après tes réponses, tu appartiens à la tribu :<span style="font-weight:600;"> ${result} </span></h2>
-           <h2 class="Result">N'hésite pas à partager en story insta ta tribu en nous identifiant pour <span style="font-weight:600;">gagner ta place</span> ! 😉</h2>
+           <h2 class="Result">N'hésite pas à partager en story insta ta tribu en nous identifiant  <span style="font-weight:600;">@t2o_creation</span> pour <span style="font-weight:600;">gagner ta place</span> ! 😉</h2>
            <img src="${Tribu}"/>
            <a href="${Tribu}" download><button class="Download">Telecharge ton resultat</button></a>
            <button onclick="location.reload()" class="quit">Relancer le quiz</button>
