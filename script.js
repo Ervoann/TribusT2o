@@ -195,7 +195,7 @@ submitBtn.addEventListener('click', () => {
            quiz.innerHTML = `
            <div class="Container">
            <h2 class="Result">D'après tes réponses, tu appartiens à la tribu :<span style="font-weight:600;"> ${result} </span></h2>
-           <h2 class="Result">N'hésite pas à partager en story insta ta tribu en nous identifiant  <span style="font-weight:600;">@t2o_creation</span> pour <span style="font-weight:600;"> tenter gagner ta place</span> ! 😉</h2>
+           <h2 class="Result">N'hésite pas à partager en story insta ta tribu en nous identifiant  <span style="font-weight:600;">@t2o_creation</span> pour <span style="font-weight:600;"> tenter de gagner ta place</span> ! 😉</h2>
            <img src="${Tribu}"/>
            <a href="${Tribu}" download><button class="Download">Telecharge ton resultat</button></a>
            <button onclick="location.reload()" class="quit">Relancer le quiz</button>
